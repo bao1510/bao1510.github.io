@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Trang web đơn giản</title>
+    <title>Trang web đơn giản</title>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            if (window.location.pathname === "/page1") {
+                window.history.pushState({}, '', '/page1');
+            }
+        });
+    </script>
 </head>
 <body>
-
-<h1>Chào mừng bạn đến với trang web của tôi!</h1>
-
-<p>Đây là một đoạn văn bản đơn giản trên trang web của tôi.</p>
-
-<ul>
-<li>Mục 1</li>
-<li>Mục 2</li>
-<li>Mục 3</li>
-</ul>
-
-<a href="index.html">quay lại </a>
-
+    <h1>Chào mừng bạn đến với trang web của tôi!</h1>
+    <p>Đây là một đoạn văn bản đơn giản trên trang web của tôi.</p>
+    <ul>
+        <li>Mục 1</li>
+        <li>Mục 2</li>
+        <li>Mục 3</li>
+    </ul>
+    <a href="index.html">quay lại </a>
 </body>
 </html>
