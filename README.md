@@ -15,7 +15,7 @@
 <li>Mục 3</li>
 </ul>
 
-<a href="https://www.example.com">Liên kết đến một trang web khác</a>
+<a href="a">Liên kết đến một trang web khác</a>
 
 </body>
 </html>
