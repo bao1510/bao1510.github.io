@@ -1,46 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-    <title>Hồ Sơ Cá Nhân</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            text-align: center;
+            padding: 50px;
+        }
+        .profile-container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            margin: auto;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #ff7e5f;
+        }
+        h2 {
+            color: #333;
+        }
+        .bio {
+            color: #666;
+        }
+        .social-links a {
+            margin: 10px;
+            display: inline-block;
+            text-decoration: none;
+            color: white;
+            background: #ff7e5f;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .social-links a:hover {
+            background: #feb47b;
+        }
+    </style>
 </head>
 <body>
-    <h1>HỒ SƠ CÁ NHÂN</h1>
-
-    <div>
-        <img src="đường_dẫn_đến_ảnh_của_bạn.jpg" alt="Ảnh của bạn" width="150"> 
-        <p><strong>Họ và tên:</strong> PHAM DUY BAO</p>
-    </div>
-
-    <div>
-        <h2>Thông tin liên hệ</h2>
-        <p><strong>Địa chỉ:</strong> [Địa chỉ của bạn]</p>
-        <p><strong>Số điện thoại:</strong> [Số điện thoại của bạn]</p>
-        <p><strong>Email:</strong> [Email của bạn]</p>
-    </div>
-
-    <div>
-        <h2>Kinh nghiệm làm việc</h2>
-        <p>[Liệt kê kinh nghiệm làm việc của bạn]</p>
-    </div>
-
-    <div>
-        <h2>Trình độ học vấn</h2>
-        <p>[Liệt kê trình độ học vấn của bạn]</p>
-    </div>
-
-    <div>
-        <h2>Kỹ năng</h2>
-        <p>[Liệt kê các kỹ năng của bạn]</p>
-    </div>
-
-    <div>
-        <h2>Dự án đã thực hiện</h2>
-        <p>[Liệt kê các dự án bạn đã thực hiện]</p>
-    </div>
-
-    <div>
-        <h2>Giới thiệu bản thân</h2>
-        <p>[Viết đoạn giới thiệu ngắn gọn về bản thân]</p>
+    <div class="profile-container">
+        <img class="profile-img" src="https://via.placeholder.com/120" alt="Ảnh đại diện">
+        <h2>Tên Của Bạn</h2>
+        <p class="bio">Một chút giới thiệu về bản thân, sở thích, công việc...</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
     </div>
 </body>
 </html>
