@@ -1,0 +1,122 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:  rgba(255, 255, 255, 0.775);
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.hero-content {
+    flex: 1;
+}
+
+.hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 60%;
+}
+
+.hero-image img {
+    max-width: 60%;
+    min-width: 200px; /* Đảm bảo ảnh không nhỏ hơn một kích thước nhất định */
+    height: auto;
+    flex-shrink: 0; /* Ngăn ảnh bị co nhỏ khi thu nhỏ màn hình */
+}
+
+.social-icons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+footer {
+    padding-bottom: 0px;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Cho phép các thẻ tự động xuống dòng */
+    justify-content: center; /* Căn giữa các thẻ */
+    gap: 20px;
+    padding: 20px; /* Thêm padding để tránh sát lề */
+}
+
+.service-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 0 300px; /* Đảm bảo các thẻ có độ rộng tối thiểu */
+    margin: 10px; /* Thêm margin để tạo khoảng cách */
+}
+
+.service-icon img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
