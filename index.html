@@ -1,21 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Trang web đơn giản</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Profile</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Hire Me</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<h1>Chào mừng bạn đến với trang web của tôi!</h1>
-
-<p>Đây là một đoạn văn bản đơn giản trên trang web của tôi.</p>
-
-<ul>
-<li>Mục 1</li>
-<li>Mục 2</li>
-<li>Mục 3</li>
-</ul>
-
-<a href="a.html">Liên kết đến một trang web khác</a>
-
+    <section class="hero" style="background-color: rgba(233, 253, 253, 0.621);">
+        <div class="hero-content" style="padding-left: 100px;">
+            <div class="social-icons">
+                <a href="https://www.facebook.com/cucai.bk" target="_blank">
+                    <img src="F.png" alt="Mô tả ảnh" style="width:30px;height:30px;">
+                </a>
+                <a href="https://www.youtube.com/@baopham4268" target="_blank" style="padding-left: 50px;">
+                    <img src="Y.png" alt="Mô tả ảnh" style="width:60px;">
+                </a>
+            </div>
+            <h1>I'm Web Developer</h1>
+            <p>Natalie E. Watson</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus luctus nec ullamcorper mattis, pulvinar dapibus leo ullamcorper, lorem ipsum.</p>
+            <a href="#" class="learn-more-btn">Learn more</a>
+        </div>
+        <div class="hero-image">
+            <img src="a2.png" alt="Your Image">
+        </div>
+    </section>
+    <section class="hero" style="background-color: rgb(255, 255, 255);">
+        <div class="container" style="text-align: center;">
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="icon-uiux.png" alt="UI/UX Design">
+                </div>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <a href="#" class="arrow-btn">→</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="icon-marketing.png" alt="Digital Marketing">
+                </div>
+                <h2>Digital Marketing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <a href="#" class="arrow-btn">→-</a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <img src="icon-webdev.png" alt="Web Development">
+                </div>
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                <a href="#" class="arrow-btn">→</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>Customize</p>
+    </footer>
 </body>
 </html>
