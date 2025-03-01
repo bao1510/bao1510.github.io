@@ -7,62 +7,114 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #ff7e5f;
+            color: white;
             text-align: center;
-            padding: 50px;
+            padding: 50px 20px;
         }
-        .profile-container {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
-            max-width: 400px;
+        .container {
+            max-width: 900px;
             margin: auto;
+            padding: 20px;
         }
-        .profile-img {
-            width: 120px;
-            height: 120px;
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .profile img {
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid #ff7e5f;
+            border: 4px solid white;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
         }
-        h2 {
+        .profile h2 {
             color: #333;
+            margin-top: 10px;
         }
         .bio {
             color: #666;
+            text-align: center;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .social-links {
+            text-align: center;
         }
         .social-links a {
-            margin: 10px;
-            display: inline-block;
             text-decoration: none;
             color: white;
             background: #ff7e5f;
             padding: 10px 15px;
             border-radius: 5px;
+            margin: 5px;
+            display: inline-block;
             transition: 0.3s;
         }
         .social-links a:hover {
             background: #feb47b;
         }
         .video-container {
-            margin-top: 20px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <div class="profile-container">
-        <img class="profile-img" src="a1.png" alt="Ảnh đại diện">
-        <h2>Tên Của Bạn</h2>
-        <p class="bio">Một chút giới thiệu về bản thân, sở thích, công việc...</p>
-        <div class="social-links">
+    <div class="header">
+        <h1>Chào mừng đến với Profile của Tôi</h1>
+    </div>
+    <div class="container">
+        <div class="profile">
+            <img src="a1.png" alt="Ảnh đại diện">
+            <h2>PHẠM DUY BÁO</h2>
+            <p class="bio">Lập trình viên & Nhà thiết kế web đầy sáng tạo.</p>
+        </div>
+        
+        <div class="section">
+            <h3>Giới Thiệu</h3>
+            <p>Tôi là một lập trình viên với niềm đam mê về công nghệ và thiết kế web. Tôi thích tạo ra những trải nghiệm người dùng tuyệt vời.</p>
+        </div>
+
+        <div class="section">
+            <h3>Kỹ Năng</h3>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Vue.js</li>
+                <li>Node.js, PHP</li>
+                <li>Thiết kế UI/UX</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>Dự Án</h3>
+            <p>Một số dự án nổi bật mà tôi đã thực hiện:</p>
+            <ul>
+                <li><a href="#">Website cá nhân</a></li>
+                <li><a href="#">Ứng dụng quản lý công việc</a></li>
+                <li><a href="#">Trang thương mại điện tử</a></li>
+            </ul>
+        </div>
+
+        <div class="section video-container">
+            <h3>Video Giới Thiệu</h3>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/KhG64uos4N8" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="section social-links">
+            <h3>Kết Nối Với Tôi</h3>
             <a href="#">Facebook</a>
             <a href="#">LinkedIn</a>
             <a href="#">GitHub</a>
-        </div>
-        <div class="video-container">
-            <h3>Video Giới Thiệu</h3>
-            <iframe width="100%" height="215" src="https://www.youtube.com/watch?v=KhG64uos4N8" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
 </body>
