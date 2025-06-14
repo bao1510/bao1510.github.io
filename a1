@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Từ vựng N3 - Trang 7 - Japanese Vocabulary N3</title>
+  <link rel="stylesheet" href="vocab_styles.css">
+</head>
+<body>
+  <header>
+    <h1>📘 Từ vựng JLPT N3</h1>
+    <nav>
+      <a href="index.html">🏠 Trang chính</a>
+      <a href="tiengnhat.html">📊 Thống kê</a>
+      <a href="javascript:history.back()">🔙 Trang trước</a>
+      <a href="#">🔝 Lên đầu trang</a>
+      <div class="page-jump">
+        <input type="number" id="page-input" min="7" max="62" placeholder="Số trang">
+        <span>/ 62</span>
+        <button id="jump-button">Đến</button>
+      </div>
+      </nav>
+  </header>
+
+  <div class="container">
+    <h2>Từ vựng N3 (Trang 7/62)</h2>
+
+    <div class="pagination">
+      <a href="vocab-n3_p6.html">Trang Trước</a>
+      <span>Trang 7 / 62</span>
+      <a href="vocab-n3_p8.html">Trang Sau</a>
+    </div>
+  </div>
+
+  <script src="vocab-page.js"></script>
+  </body>
+</html>

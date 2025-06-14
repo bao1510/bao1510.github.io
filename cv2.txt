@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>職務経歴書</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2 {
+            color: #0056b3;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+            margin-top: 30px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Gộp các đường viền bảng */
+            margin-top: 20px;
+            margin-bottom: 30px;
+            background-color: #fff; /* Màu nền cho bảng */
+        }
+        th, td {
+            border: 1px solid #ddd; /* Đường viền cho ô */
+            padding: 10px;
+            text-align: left;
+            vertical-align: top; /* Căn trên cho nội dung ô */
+        }
+        thead th {
+            background-color: #e2e2e2; /* Màu nền cho tiêu đề bảng */
+            color: #333;
+            font-weight: bold;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f9f9f9; /* Màu nền xen kẽ cho hàng chẵn */
+        }
+        tbody tr:hover {
+            background-color: #eaf6ff; /* Thay đổi màu nền khi di chuột qua */
+        }
+        ul {
+            list-style: disc; /* Dấu chấm cho danh sách */
+            padding-left: 20px;
+            margin: 0;
+        }
+        ul li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>職務経歴書</h1>
+    <p>2024年05月0７日現在</p>
+    <p>氏名: ファン　ズイ　バオ</p>
+
+    <h2>■職務要約 (Tóm tắt công việc)</h2>
+    <p>ベトナムでハノイ工科大学を卒業後、AutoCAD（２D） 、 NX-CAD（３D）で　プールとプラスチック金型を設計しました。それから今まで日本でプレスの金型を設計しました。</p>
+
+    <h2>■職務経歴 (Kinh nghiệm làm việc)</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>期間 (Thời gian)</th>
+                <th>担当製品 (Sản phẩm phụ trách)</th>
+                <th>担当業務 (Nhiệm vụ đảm nhiệm)</th>
+                <th>環境/ツール (Môi trường/Công cụ)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2019年4月～2021年3月（24ヶ月）</td>
+                <td>スイミングプールの電気および水道システム (Hệ thống điện và cấp thoát nước cho bể bơi)</td>
+                <td>
+                    <ul>
+                        <li>AutoCAD（２D）でプールの水天循環を設計して検査しました。 (Thiết kế và kiểm tra hệ thống tuần hoàn nước của bể bơi bằng AutoCAD (2D).)</li>
+                        <li>電気のシステムを検査しました。 (Kiểm tra hệ thống điện.)</li>
+                        <li>建設の進捗状況を監視しました。 (Giám sát tiến độ xây dựng.)</li>
+                        <li>完了した作業量を保護しました。 (Bảo vệ khối lượng công việc đã hoàn thành.)</li>
+                        <li>VIET THAI 技術サービス及び投資有限会社 (Công ty TNHH Dịch vụ và Đầu tư Kỹ thuật VIET THAI)</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>AutoCAD</li>
+                        <li>EXCEL</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>2021年4月～2023年5月</td>
+                <td>玩具のプラスチック金型 (Khuôn nhựa đồ chơi)</td>
+                <td>
+                    <ul>
+                        <li>ツープレートの金型を設計しました。(Thường thì bạn sẽ muốn nói loại khuôn là 2 plate, không phải chỉ thiết kế chung.) あまスリープレートがありました。(Có thể hiểu là "Có cả loại 3 plate nữa" hoặc "Thường là 3 plate". Cần làm rõ ý này.)</li>
+                        <li>製品の３Dデータから計算し、有り合わせのレイアウト通りにNX-CAD（３D）で設計しました。 (Tính toán từ dữ liệu 3D của sản phẩm và thiết kế bằng NX-CAD (3D) theo layout sẵn có.)</li>
+                        <li>加工図面（２D）をAutoCADで展開しました。 (Triển khai bản vẽ gia công (2D) bằng AutoCAD.)</li>
+                        <li>員数表を作成しました。（在庫およびスペアパーツで入手可能な機器の使用を優先する） (Lập bảng định mức/danh mục linh kiện. Ưu tiên sử dụng các thiết bị có sẵn trong kho và linh kiện dự phòng.)</li>
+                        <li>金型が出荷されるまで監視し、必要に応じて修理しました。 (Giám sát cho đến khi khuôn được xuất xưởng và sửa chữa khi cần thiết.)</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>NX-CAD（３D）</li>
+                        <li>AutoCAD（２D）</li>
+                        <li>EXCEL</li>
+                    </ul>
+                </td>
+            </tr>
+             <tr>
+                <td>2023年6月～現在（23ヶ月）</td>
+                <td>自動車フレーム部品プレスの金型 (Khuôn dập chi tiết khung xe ô tô)</td>
+                <td>
+                    <ul>
+                        <li>発泡でSPACE-Eを応用し、サンプルのCNCプログラミングを計算してから機械を運行しました。 (Ứng dụng SPACE-E cho vật liệu bọt, tính toán lập trình CNC cho mẫu rồi vận hành máy.)</li>
+                        <li>図面からSPACE-Eで製品（３D）を設計しました。 (Thiết kế sản phẩm (3D) bằng SPACE-E từ bản vẽ.)</li>
+                        <li>RECREATE (HEXAGON)でスキャンデータからソリッドデータを変換しました。 (Chuyển đổi dữ liệu quét thành dữ liệu solid bằng RECREATE (HEXAGON).)</li>
+                        <li>プレス機械のカタログから３Dデータと干渉曲線を作成しました。 (Tạo dữ liệu 3D và đường cong giao thoa từ catalogue máy dập.)</li>
+                        <li>有り合わせのレイアウト通りにNX-CADを応用し、金型の３D、２Dを設計しました。進捗状況を追跡し、顧客の要求に応じた修理を行いました。 (Ứng dụng NX-CAD theo layout sẵn có để thiết kế 3D, 2D của khuôn. Theo dõi tiến độ và sửa chữa theo yêu cầu của khách hàng.)</li>
+                        <li>員数表を作成しました。（顧客の要求通りに） (Lập bảng định mức/danh mục linh kiện. Theo yêu cầu của khách hàng.)</li>
+                        <li>SPEEDYを応用して金型の２D図面を展開しました。 (Ứng dụng SPEEDY để triển khai bản vẽ 2D của khuôn.)</li>
+                        <li>NX-CAD、SPEEDYでミスミ、サンキョウ、パンチ、パスカル、自社部品のライブラリを作成しました。 (Tạo thư viện các linh kiện của Misumi, Sankyo, Punch, Pascal và linh kiện nội bộ của công ty bằng NX-CAD, SPEEDY.)</li>
+                        <li>VBAプログラミング言語を使用してNX-CAD（EXCEL）でコマンドを開発し、正確かつ迅速な作業を実現しました。<br>（コマンドの例は、日本での経験で得たものです。） (Phát triển lệnh trong NX-CAD (Excel) bằng ngôn ngữ lập trình VBA để đảm bảo độ chính xác và tốc độ. (Ví dụ về lệnh là những gì đã học được từ kinh nghiệm ở Nhật Bản.))</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>NX-CAD</li>
+                        <li>SPEEDY（２D）</li>
+                        <li>RECREATE</li>
+                        <li>SPACE-E</li>
+                        <li>EXCEL</li>
+                    </ul>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>■活かせる経験・知識・技術 (Kinh nghiệm, kiến thức, kỹ năng có thể áp dụng)</h2>
+    <ul>
+        <li>AutoCAD（２D）</li>
+        <li>NX-CAD</li>
+        <li>SPEEDY（２D）</li>
+        <li>RECREATE</li>
+        <li>SPACE-E</li>
+        <li>EXCEL</li>
+        <li>VBAプログラミング言語</li>
+        <li>日本語能力N3相当 (Năng lực tiếng Nhật tương đương N3)</li>
+    </ul>
+
+    <h2>■自己PR (Tự PR / Điểm mạnh bản thân)</h2>
+    <p>私は、プラスチック金型とプレスの金型設計の経験があり、様々なソフトウェアの使用経験があります。新しいソフトウェアにも迅速に順応できます。</p>
+    <p>また、ライブラリ、ツール、コマンドを作成することで、時間短縮と作業の正確性を高める新しい方法を常に見つけ出すことができます。</p>
+    <p>常に積極的に新たな知識を学び、対人関係も良好です。一人での作業はもちろん、チームワークのスキルも持ち合わせています。</p>
+    <p>責任感を持って業務に取り組み、プレッシャーのある状況でも柔軟に対応し、交代勤務も可能です。</p>
+
+    <p>以上 (Hết)</p>
+</body>
+</html>

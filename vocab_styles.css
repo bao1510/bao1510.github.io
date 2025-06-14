@@ -1,0 +1,126 @@
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background-color: #3f51b5;
+      color: white;
+      padding: 10px 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav {
+      display: flex;
+      align-items: center;
+    }
+    header nav a {
+      color: white;
+      margin-left: 15px;
+      text-decoration: none;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 80px auto 20px;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .word {
+      border-bottom: 1px solid #eee;
+      padding: 15px 5px;
+    }
+    .word:last-child {
+      border-bottom: none;
+    }
+    .kana {
+      color: #666;
+      font-size: 0.9em;
+    }
+    .meaning {
+      margin-top: 5px;
+    }
+    ruby rt {
+      font-size: 0.7em;
+      color: #a33;
+    }
+    .pagination {
+        text-align: center;
+        margin-top: 30px;
+        padding: 10px 0;
+    }
+    .pagination a {
+        color: #3f51b5;
+        padding: 8px 16px;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        margin: 0 4px;
+        border-radius: 4px;
+    }
+    .pagination a.disabled {
+        color: #ccc;
+        pointer-events: none;
+        border-color: #ccc;
+    }
+    .pagination span {
+        padding: 8px 16px;
+    }
+    /* CSS cho chức năng nhảy trang */
+    .page-jump {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 20px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 5px 8px;
+      border-radius: 5px;
+    }
+    .page-jump input[type="number"] {
+      width: 55px;
+      padding: 5px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+      -moz-appearance: textfield; /* Firefox */
+    }
+    .page-jump input[type=number]::-webkit-inner-spin-button, 
+    .page-jump input[type=number]::-webkit-outer-spin-button { 
+      -webkit-appearance: none; 
+      margin: 0; 
+    }
+    .page-jump button {
+      padding: 5px 10px;
+      margin-left: 5px;
+      border-radius: 3px;
+      border: none;
+      background-color: #f0f0f0;
+      color: #333;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .page-jump button:hover {
+      background-color: #ddd;
+    }
+    .page-jump span {
+      margin: 0 5px;
+    }
+    .serial-number {
+      font-weight: bold;
+      color: #d32f2f;
+      margin-right: 10px;
+      min-width: 40px; /* Đảm bảo độ rộng cho số thứ tự */
+    }
